@@ -17,22 +17,3 @@ export let twitterConfig = {
 
     //bearerToken : process.env.TWITTER_BEARER_TOKEN
 };
-
-export let mastodonConfig = {
-    url : process.env.MASTODON_URL,
-
-    accessToken : process.env.MASTODON_ACCESS_TOKEN,
-
-}
-
-export let tumblrConfig = {
-    consumer_key: process.env.TUMBLR_CONSUMER_KEY,
-
-    consumer_secret: process.env.TUMBLR_CONSUMER_SECRET,
-
-    token: process.env.TUMBLR_TOKEN,
-
-    token_secret: process.env.TUMBLR_TOKEN_SECRET
-}
-
-export let discordConfig = process.env.DISCORD_TOKEN
