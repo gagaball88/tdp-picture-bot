@@ -9,7 +9,7 @@ const twitterClient = new TwitterApi(twitterConfig);
 export async function sendTweet(message, imagePath) {
     const mediaId = await Promise.all([
 
-        twitterClient.v1.uploadMedia(imagePath),
+      twitterClient.v1.uploadMedia(imagePath),
 
     ]);
 

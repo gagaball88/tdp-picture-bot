@@ -16,6 +16,8 @@ function updateVariables() {
     delete require.cache[require.resolve('./config/config.json')]   // Deleting loaded module
     config = require("./config/config.json");
 
+    pictureSlot = config.slot
+
     const d = new Date();
     let minute = d.getMinutes();
 
