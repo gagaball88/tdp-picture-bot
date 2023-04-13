@@ -1,7 +1,9 @@
 # tdp-picture-bot
+
 Bot that counts down to/up from a specified date with custom text/images
 
 ## Usage
+
 Steps to set up this bot:
 
 1. Download the latest [release](https://github.com/gagaball88/tdp-countdown-bot/releases/tag/Releases/latest) and extract it to a folder of your choice.
