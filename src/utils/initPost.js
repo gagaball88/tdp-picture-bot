@@ -10,7 +10,7 @@ export default async function initPost(pictureSlot) {
 
     let picture = refreshPic(pictureSlot);
 
-    let message = ""
+    let message = "#TDPPictures #RenewArc3 #GiveUsTheSaga #ContinueTheSaga"
     //console.log(picture);
 
     let debuggingEnv = config.debuggingEnv
